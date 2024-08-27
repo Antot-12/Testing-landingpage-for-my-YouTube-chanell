@@ -8,6 +8,7 @@ import VideoGallery from './components/VideoGallery';
 import SuggestionForm from './components/SuggestionForm';
 import Footer from './components/Footer';
 import LatestVideo from './components/LatestVideo';
+import ArticlePage from './components/ArticlePage';
 
 const App = () => {
     const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');

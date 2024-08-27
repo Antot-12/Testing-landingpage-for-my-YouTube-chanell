@@ -34,9 +34,9 @@ const VideoGallery = ({ getText }) => {
                                     height: '100%',
                                     display: 'flex',
                                     flexDirection: 'column',
+                                    alignItems: 'center',
+                                    justifyContent: 'center',
                                     transition: 'transform 0.5s ease, box-shadow 0.5s ease',
-                                    alignItems: 'center', // Center content
-                                    justifyContent: 'center', // Center content
                                     '&:hover': {
                                         transform: 'scale(1.1)',
                                         boxShadow: '0 6px 20px rgba(0, 188, 212, 0.5)',
