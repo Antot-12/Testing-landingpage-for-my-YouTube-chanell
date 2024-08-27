@@ -27,7 +27,79 @@ Welcome to my first React project! This is a landing page designed for my YouTub
 ![Video Display Screenshot](./video-display.png)
 
 ### Language Switcher
-![Video Display Screenshot](./switch-language.png)
+<p align="center">
+    <img width="30%" src="./switch-language.png" alt="Language Switcher">
+</p>
+
+
+## 💌 Suggestion Form
+
+<p align="center">
+    <img width="60%" src="./form.png" alt="Suggestion Form">
+</p>
+
+Our landing page includes a suggestion form that allows viewers to send their ideas and feedback directly to my email. This form is an easy way for you to share your thoughts on how we can improve the content and overall experience of the channel.
+
+### Key Features:
+- **User-Friendly Interface:** Simple and intuitive design for ease of use.
+- **Direct Communication:** Submissions are sent straight to my inbox, ensuring I receive your feedback promptly.
+- **Privacy Assurance:** Your email and message are handled with the utmost confidentiality.
+
+Feel free to share your suggestions on how we can enhance the channel!
+
+
+
+## 🗂️ Project Structure
+
+```plaintext
+my-youtube-channel/
+│
+├── node_modules/          # Dependencies
+├── public/                # Publicly accessible files
+│   ├── index.html         # Main HTML file
+│   ├── logo.png           # Project logo
+│   └── ...                # Other assets
+│
+├── src/                   # Source files
+│   ├── assets/            # Image assets
+│   │   ├── image-3.jpg
+│   │   ├── logo.png
+│   │   └── react.svg
+│   │
+│   ├── components/        # React components
+│   │   ├── AboutSection.jsx
+│   │   ├── ArticlePage.jsx
+│   │   ├── Footer.jsx
+│   │   ├── HeroSection.jsx
+│   │   ├── LanguageSelector.jsx
+│   │   ├── LatestVideo.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── SuggestionForm.jsx
+│   │   ├── VideoGallery.jsx
+│   │   └── VideoSection.jsx
+│   │
+│   ├── App.css            # Global styles
+│   ├── App.jsx            # Main React component
+│   ├── index.css          # Additional styles
+│   ├── main.jsx           # Entry point
+│   └── ...                # Other files
+│
+├── youtube-landing-page/   # Additional project (optional)
+│   ├── .idea/             # IDE settings
+│   ├── .gitignore         # Files to ignore by Git
+│   ├── README.md          # Project README
+│   ├── package.json       # Project metadata and dependencies
+│   └── ...                # Other files
+│
+├── .gitignore              # Files to ignore by Git
+├── vite.config.ts          # Vite configuration
+└── ...                    # Other files
+
+
+```
+
+
+
 
 ## 🚀 Getting Started
 
